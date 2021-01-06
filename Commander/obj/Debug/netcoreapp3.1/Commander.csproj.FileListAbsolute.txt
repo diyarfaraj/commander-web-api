@@ -61,3 +61,5 @@ C:\Users\Diyar\source\repos\Commander\commander\bin\Debug\netcoreapp3.1\runtimes
 C:\Users\Diyar\source\repos\Commander\commander\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 C:\Users\Diyar\source\repos\Commander\commander\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\Diyar\source\repos\Commander\commander\obj\Debug\netcoreapp3.1\Commander.csproj.CopyComplete
+C:\Users\Diyar\source\repos\Commander\Commander\bin\Debug\netcoreapp3.1\AutoMapper.dll
+C:\Users\Diyar\source\repos\Commander\Commander\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll

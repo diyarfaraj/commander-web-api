@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Diyar\\source\\repos\\Commander\\commander\\Commander.csproj": {}
+    "C:\\Users\\Diyar\\source\\repos\\Commander\\Commander\\Commander.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Diyar\\source\\repos\\Commander\\commander\\Commander.csproj": {
+    "C:\\Users\\Diyar\\source\\repos\\Commander\\Commander\\Commander.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Diyar\\source\\repos\\Commander\\commander\\Commander.csproj",
+        "projectUniqueName": "C:\\Users\\Diyar\\source\\repos\\Commander\\Commander\\Commander.csproj",
         "projectName": "Commander",
-        "projectPath": "C:\\Users\\Diyar\\source\\repos\\Commander\\commander\\Commander.csproj",
+        "projectPath": "C:\\Users\\Diyar\\source\\repos\\Commander\\Commander\\Commander.csproj",
         "packagesPath": "C:\\Users\\Diyar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Diyar\\source\\repos\\Commander\\commander\\obj\\",
+        "outputPath": "C:\\Users\\Diyar\\source\\repos\\Commander\\Commander\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Diyar\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,6 +40,10 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.0, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[5.0.1, )"

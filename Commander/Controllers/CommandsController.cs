@@ -32,6 +32,9 @@ namespace Commander.Controllers
         {
             var commandItem = _repository.getCommandById(id);
 
+            if (commandItem == null)
+                return NotFound();
+
             return Ok(commandItem);
         }
     }

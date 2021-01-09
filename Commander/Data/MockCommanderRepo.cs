@@ -8,6 +8,11 @@ namespace Commander.Data
 {
     public class MockCommanderRepo : ICommanderRepo
     {
+        public void CreateCommand(Command cmd)
+        {
+            throw new NotImplementedException();
+        }
+
         //min 26:52
         public IEnumerable<Command> GetAllCommands()
         {
@@ -25,6 +30,11 @@ namespace Commander.Data
         {
             var command = GetAllCommands().Where(c => c.Id == id).FirstOrDefault();
             return command;
+        }
+
+        public bool SaveChanges()
+        {
+            throw new NotImplementedException();
         }
     }
 }

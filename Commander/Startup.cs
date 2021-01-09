@@ -29,10 +29,12 @@ namespace Commander
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddDbContext<CommanderContext>(opt => opt.UseSqlServer(Configuration.GetConnectionString("CommanderConnection")));
-            services.AddControllers();
+            services.AddControllers(options => options.SuppressAsyncSuffixInActionNames = false);
             services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
             //services.AddScoped<ICommanderRepo, MockCommanderRepo>();
             services.AddScoped<ICommanderRepo, SqlCommanderRepo>();
+            
+
 
         }
 

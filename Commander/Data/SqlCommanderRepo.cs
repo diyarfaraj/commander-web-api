@@ -15,7 +15,15 @@ namespace Commander.Data
             _context = context;
         }
 
-        //min 1:41:14
+        public void CreateCommand(Command cmd)
+        {
+            if(cmd == null)
+            {
+                throw new ArgumentNullException(nameof(cmd));
+            }
+
+            _context.Commands.Add(cmd);
+        }
 
         public IEnumerable<Command> GetAllCommands()
         {
@@ -27,6 +35,11 @@ namespace Commander.Data
             var command =  _context.Commands.FirstOrDefault(c => c.Id == id);
 
             return command;
+        }
+
+        public bool SaveChanges()
+        {
+          return  (_context.SaveChanges() >= 0);
         }
     }
 }
